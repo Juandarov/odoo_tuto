@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+    <data>
+        <record id="object0" model="mymodule.course">
+            <field name="name">Course 0</field>
+            <field name="description">hello 0</field>
+        </record>
+
+        <record id="object1" model="mymodule.course">
+            <field name="name">Course 1</field>
+            <field name="description">hello 10</field>
+        </record>
+
+        <record id="object2" model="mymodule.course">
+            <field name="name">Course 2</field>
+            <field name="description">hello 20</field>
+        </record>
+
+        <record id="object3" model="mymodule.course">
+            <field name="name">Course 3</field>
+            <!-- no description for this one -->
+        </record>
+
+        <record id="object4" model="mymodule.course">
+            <field name="name">Course 4</field>
+            <field name="description">hello 40</field>
+        </record>
+    </data>
+</odoo>
